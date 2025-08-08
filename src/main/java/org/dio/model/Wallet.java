@@ -16,7 +16,7 @@ private final BanckService service;
 
     protected final List<Money> money;
 
-    protected Wallet(BanckService service, List<Money> money) {
+    protected Wallet(BanckService service) {
         this.service = service;
         this.money = new ArrayList<>();
     }
